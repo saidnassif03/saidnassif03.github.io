@@ -1,0 +1,40 @@
+body {
+    /* border: 1px solid blue; */
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    scrollbar-width: none;
+    font-family: 'PT Serif', serif;
+    animation: fadeIn ease 500ms;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+body::-webkit-scrollbar { 
+    display: none;
+}
+main {
+    outline: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+}
+main > div {
+    outline: 0.5px solid black;
+    height: 33.3%;
+    width: 33.3%;
+}
+#menu {
+    margin-bottom: 15px;
+}
