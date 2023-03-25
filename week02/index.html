@@ -4,22 +4,58 @@
         <title>Vannevar Bush</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="style2.css">
+        <style>
+            body {
+                background-color: #f5f5f5;
+            }
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+            }
+            .picture {
+                width: 40%;
+                margin-right: 50px;
+            }
+            p {
+                font-size: 24px;
+                line-height: 1.5;
+            }
+            .blue {
+                background-color: #4a89dc;
+                color: #fff;
+                padding: 20px;
+            }
+            .green {
+                background-color: #00b16a;
+                color: #fff;
+                padding: 20px;
+            }
+            .purple {
+                background-color: #9b59b6;
+                color: #fff;
+                padding: 20px;
+            }
+        </style>
     </head>
 
     <body>
-        <h1> Vannevar Bush </h1>
-        <img src="bush.png" alt="portrait" class="picture">
-        <p> Science has enabled record-breaking advancement. Achievable levels of detail,
-            the excellence of a particular system, and the effectiveness of resources
-            and tools within science all contribute to the establishment of boundaries.
-            You now have quick access to a never-ending library of knowledge thanks to
-            these rapid advancements. The vast amount of data that is available to users,
-            however, makes it challenging to examine. In addition, some compression is 
-            built-in and only needs a few artifacts
-            to be accessible. As a result, when ideas are shared, quality is frequently
-            compromised. Basically, it modifies the original language and runs or executes
-            a set of instructions on an already-existing machine. 
-        </p>
+        <div class="container">
+            <img src="bush.png" alt="portrait" class="picture">
+            <div class="text">
+                <h1>Vannevar Bush</h1>
+                <p class="blue">Science has enabled record-breaking advancement. Achievable levels of detail,
+                    the excellence of a particular system, and the effectiveness of resources
+                    and tools within science all contribute to the establishment of boundaries.</p>
+                <p class="green">You now have quick access to a never-ending library of knowledge thanks to
+                    these rapid advancements. The vast amount of data that is available to users,
+                    however, makes it challenging to examine. In addition, some compression is 
+                    built-in and only needs a few artifacts to be accessible.</p>
+                <p class="purple">As a result, when ideas are shared, quality is frequently
+                    compromised. Basically, it modifies the original language and runs or executes
+                    a set of instructions on an already-existing machine.</p>
+            </div>
+        </div>
     </body>
-
 </html>
