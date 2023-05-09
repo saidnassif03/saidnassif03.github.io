@@ -20,7 +20,7 @@ class Moon {
     constructor(x, y) {
         this.x = x;
         this.y = y;
-        this.size = random(10, 50); // Increased minimum and maximum size
+        this.size = random(10, 50);
         this.color = color(random(100, 255), random(100, 255), random(100, 255));
     }
 
